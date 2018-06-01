@@ -1,0 +1,83 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Quiz</title>
+
+   
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container__form">
+                <p>This is the quiz in the internet</p>
+
+                <form id="quiz" name="quiz">
+                 <p>what is the capital of India</p>
+                 <input type="text" id="textbox" name="question1">
+         
+                 <p> what is the capital of Canada</p>
+                 <div class="radio-block">
+                        <input class="radio1" type="radio" id="canada" name="question2" value="Ottawa">Ottawa</br>
+                        <input  class="radio2" type="radio" id="canada" name="question2" value="Regina">Regina</br>
+                 </div>
+                 
+         
+                 <p> what is the capital of America</p>
+                 <div class="radio-block">
+
+                 <input type="radio" id="america" name="question3" value="Washington">Washington</br>
+                 <input type="radio" id="america" name="question3" value="NewYork">NewYork</br>
+                 </div>
+         
+                 <input id="button" class="button" type="button" value="I'm finished" onclick="check();">
+                </form>
+
+        </div>
+      
+       <div class="result-block">
+
+            <div id="after-submit">
+                    <p>You are finished your quiz</p>
+                </div>
+            
+                <div id="message">
+            
+            
+                </div>
+            
+                <div id="correct-answer">
+            
+                </div>
+            
+                <img id="picture">
+            </div>
+       </div>
+    </div>
+
+    
+
+
+
+<!--
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+
+<script src="js/custom.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+body {
+  font-family: 'Lato', sans-serif; }
+
+#after-submit {
+  visibility: hidden; }
+
+.container {
+  width: 40rem;
+  margin: 0 auto;
+  background: #f8f8f8; }
+  .container__form {
+    padding: 3rem 0;
+    background: #2a88ae;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+    text-align: center;
+    -webkit-box-shadow: 0.3rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0.3rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    border-radius: 2rem; }
+
+.radio-block {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+input[id="textbox"] {
+  width: 30%;
+  height: 2rem; }
+
+input[type="radio"] {
+  width: 1.6rem;
+  height: 1.6rem; }
+
+input#button.button {
+  background: white;
+  color: #2a88ae;
+  text-transform: uppercase;
+  width: 7rem;
+  height: 5rem; }
+
+.result-block {
+  text-align: center;
+  color: #2a88ae;
+  padding: 1rem 0 0 0; }
+  .result-block #correct-answer {
+    padding: 1rem 0; }
