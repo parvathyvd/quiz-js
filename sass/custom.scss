@@ -12,7 +12,6 @@ body{
 .container{
     width: 40rem;
     margin: 0 auto;
-    background: #f8f8f8;
 
     &__form{
         padding: 3rem 0;
@@ -23,9 +22,6 @@ body{
         text-align: center;
         box-shadow: .3rem .5rem 1rem rgba(0,0,0,0.3);
         border-radius: 2rem;
-       
-        
-
     }
 }
 
