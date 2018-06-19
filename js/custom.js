@@ -5,7 +5,9 @@
 	var question3 = document.quiz.question3.value;
 	var correct = 0;
 
-	if (question1 == "delhi") {
+	var question1Correct = question1.toUpperCase();
+
+	if (question1Correct == "DELHI") {
 		correct++;
 }
 	if (question2 == "Ottawa") {
